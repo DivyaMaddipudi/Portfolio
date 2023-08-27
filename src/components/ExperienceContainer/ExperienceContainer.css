@@ -1,0 +1,20 @@
+.project {
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+.project:hover {
+  transform: translateY(-7px);
+}
+
+.project__jd_list {
+  list-style-type: disc;
+  text-align: left;
+}
+
+.project__description {
+  margin-top: 1em;
+}
